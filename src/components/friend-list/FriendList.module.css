@@ -1,0 +1,18 @@
+.friendList {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  padding: 25px;
+}
+
+@media screen and (min-width: 768px) {
+  .friendList {
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 25px 60px;
+    gap: 25px;
+  }
+}
